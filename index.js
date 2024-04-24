@@ -35,7 +35,7 @@ onValue(toDoListInDB, function(snapshot) {
             appendItemToToDoListEl(currentItem)
         }    
     } else {
-        toDoListEl.innerHTML = "No items here... yet"
+        toDoListEl.innerHTML = "Nothing here yet"
     }
 })
 
